@@ -37,5 +37,5 @@ function myPick(todo, keys) {
 // 4. 看看 key 在不在 todo 里面
 //    1. keyof  lookup
 //     - https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-1.html#keyof-and-lookup-types
-//    2. extends 条件约束 
+//    2. extends 条件约束
 //     - https://www.typescriptlang.org/docs/handbook/2/generics.html#generic-constraints
