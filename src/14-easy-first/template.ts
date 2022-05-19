@@ -23,9 +23,9 @@ type First2<T extends any[]> = T['length'] extends 0 ? never : T[0];
 /**
  * 方法3: extends union
  * T[number]可以遍历tuple
- * 其得到的是一个union类型，如xx行代码
+ * 其得到的是一个union类型，如35行代码
  * 如果arr是个空数组的话
- * 其T[number]得到的是never，如xx行代码
+ * 其T[number]得到的是never，如36行代码
  * 所以可以通过判断T[0] extends T[number]来做这道题
  * 如果是空数组类型，T[0]是undefined，T[number]是never
  * 则extends的结果为false
