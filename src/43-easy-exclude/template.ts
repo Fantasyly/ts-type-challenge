@@ -18,5 +18,5 @@ type MyExclude<T, U> = T extends U ? never : T;
  *    b extends a ?  no
  *    c extends a ? no
  */
-type a = Exclude<'a' | 'b' | 'c', 'a'>; // type a = "b" | "c"
+export type a = Exclude<'a' | 'b' | 'c', 'a'>; // type a = "b" | "c"
 type b = MyExclude<'a' | 'b' | 'c', 'a'>; // type b = "b" | "c"
