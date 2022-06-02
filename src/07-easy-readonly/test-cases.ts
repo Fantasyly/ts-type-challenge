@@ -1,4 +1,5 @@
 import type { Equal, Expect } from '@type-challenges/utils'
+// import {MyReadonly} from './solution';
 
 type cases = [
   Expect<Equal<MyReadonly<Todo1>, Readonly<Todo1>>>,
