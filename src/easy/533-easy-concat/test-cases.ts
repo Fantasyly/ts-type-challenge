@@ -1,4 +1,5 @@
 import type { Equal, Expect } from '@type-challenges/utils'
+import {Concat} from './review1';
 
 type cases = [
   Expect<Equal<Concat<[], []>, []>>,
